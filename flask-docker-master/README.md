@@ -23,6 +23,6 @@ Test local container:
 If you want to deploy in the cloud:
 * Tag it: `docker tag flask-docker:latest container_registry.com/flask-docker:latest`
 * Push to remote container registry: `docker push container_registry.com/flask-docker:latest`
-* Run in remote server: `docker run -d -p 50:5000 flask-docker:latest`
+* Run in remote server: `docker run -d -p 5000:5000 flask-docker:latest`
 
 See `Dockerfile` ✨🍰✨
